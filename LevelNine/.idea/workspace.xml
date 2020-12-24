@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c9f36de2-a3d7-480d-bcba-e87f5ec09ca7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jK6f1q6gFGsEWrorPBqy3j74Hg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="D:/android/SDK" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.Sort">
+    <configuration name="ListOfMassive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListOfMassive" />
+      <module name="NineLevel" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RamaWashing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RamaWashing" />
+      <module name="NineLevel" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort" />
+      <module name="NineLevel" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Sort" />
+        <item itemvalue="Application.RamaWashing" />
+        <item itemvalue="Application.ListOfMassive" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9f36de2-a3d7-480d-bcba-e87f5ec09ca7" name="Default Changelist" comment="" />
+      <created>1603540537567</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603540537567</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="585" y="181" key="FileChooserDialogImpl" timestamp="1603608811992">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="585" y="181" key="FileChooserDialogImpl/0.0.1600.870@0.0.1600.870" timestamp="1603608811992" />
+    <state width="1293" height="176" key="GridCell.Tab.0.bottom" timestamp="1603630427256">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1293" height="176" key="GridCell.Tab.0.bottom/0.0.1600.870@0.0.1600.870" timestamp="1603630427256" />
+    <state width="1293" height="176" key="GridCell.Tab.0.center" timestamp="1603630427256">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1293" height="176" key="GridCell.Tab.0.center/0.0.1600.870@0.0.1600.870" timestamp="1603630427256" />
+    <state width="1293" height="176" key="GridCell.Tab.0.left" timestamp="1603630427256">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1293" height="176" key="GridCell.Tab.0.left/0.0.1600.870@0.0.1600.870" timestamp="1603630427256" />
+    <state width="1293" height="176" key="GridCell.Tab.0.right" timestamp="1603630427256">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1293" height="176" key="GridCell.Tab.0.right/0.0.1600.870@0.0.1600.870" timestamp="1603630427256" />
+    <state x="501" y="250" key="com.intellij.ide.util.TipDialog" timestamp="1603637506964">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="501" y="250" key="com.intellij.ide.util.TipDialog/0.0.1600.870@0.0.1600.870" timestamp="1603637506964" />
+    <state x="242" y="78" width="1235" height="629" key="new project wizard" timestamp="1603637560362">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="242" y="78" width="1235" height="629" key="new project wizard/0.0.1600.870@0.0.1600.870" timestamp="1603637560362" />
+  </component>
+</project>
