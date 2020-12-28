@@ -1,55 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6943e89-0579-4690-a963-d735d538f30c" name="Default" comment="" />
-    <ignored path="Snake4Tproger.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="c6943e89-0579-4690-a963-d735d538f30c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../Tetris/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/.idea/libraries/lwjgl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/.idea/libraries/lwjgl_util.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/.idea/libraries/native.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/.idea/libraries/slick_util.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/Tetris.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/lib/lwjgl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/lib/lwjgl_util.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/lib/native/OpenAL32.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/lib/native/OpenAL64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/lib/native/jinput-dx8.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/lib/native/jinput-dx8_64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/lib/native/jinput-raw.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/lib/native/jinput-raw_64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/lib/native/libjinput-linux.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/lib/native/libjinput-linux64.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/lib/native/liblwjgl.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/lib/native/liblwjgl64.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/lib/native/libopenal.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/lib/native/libopenal64.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/lib/native/lwjgl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/lib/native/lwjgl64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/lib/slick-util.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/src/graphics/GraphicsModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/src/graphics/TpReadableColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/src/graphics/lwjglmodule/LwjglGraphicsModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/src/keyboard/KeyboardHandleModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/src/keyboard/lwjglmodule/LwjglKeyboardHandleModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/src/main/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/src/main/Coord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/src/main/CoordMask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/src/main/ErrorCatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/src/main/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/src/main/FigureForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/src/main/GameField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/src/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/src/main/RotationMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/src/main/ShiftDirection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/.idea/libraries/native.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/2048Game.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/classes/production/game2048/texture/1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/classes/production/game2048/texture/128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/classes/production/game2048/texture/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/classes/production/game2048/texture/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/classes/production/game2048/texture/2048.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/classes/production/game2048/texture/256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/classes/production/game2048/texture/32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/classes/production/game2048/texture/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/classes/production/game2048/texture/512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/classes/production/game2048/texture/64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/classes/production/game2048/texture/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/classes/production/game2048/texture/empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/lib/lwjgl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/lib/lwjgl_util.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/lib/native/OpenAL32.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/lib/native/OpenAL64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/lib/native/jinput-dx8.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/lib/native/jinput-dx8_64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/lib/native/jinput-raw.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/lib/native/jinput-raw_64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/lib/native/libjinput-linux.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/lib/native/libjinput-linux64.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/lib/native/liblwjgl.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/lib/native/liblwjgl64.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/lib/native/libopenal.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/lib/native/libopenal64.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/lib/native/lwjgl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/lib/native/lwjgl64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/lib/slick-util.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/java/graphics/GraphicsModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/java/graphics/lwjglmodule/LwjglGraphicsModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/java/graphics/lwjglmodule/LwjglSprite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/java/graphics/lwjglmodule/LwjglSpriteSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/java/keyboard/KeyboardHandleModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/java/keyboard/lwjglmodule/LwjglKeyboardHandleModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/java/main/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/java/main/Direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/java/main/ErrorCatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/java/main/GameField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/java/main/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/java/main/Main$ShiftRowResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/java/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/resources/texture/1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/resources/texture/128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/resources/texture/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/resources/texture/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/resources/texture/2048.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/resources/texture/256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/resources/texture/32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/resources/texture/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/resources/texture/512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/resources/texture/64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/resources/texture/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/out/production/2048Game/main/resources/texture/empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/src/main/java/graphics/GraphicsModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/src/main/java/graphics/lwjglmodule/LwjglGraphicsModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/src/main/java/graphics/lwjglmodule/LwjglSprite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/src/main/java/graphics/lwjglmodule/LwjglSpriteSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/src/main/java/keyboard/KeyboardHandleModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/src/main/java/keyboard/lwjglmodule/LwjglKeyboardHandleModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/src/main/java/main/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/src/main/java/main/Direction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/src/main/java/main/ErrorCatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/src/main/java/main/GameField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/src/main/java/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/src/main/resources/texture/1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/src/main/resources/texture/128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/src/main/resources/texture/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/src/main/resources/texture/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/src/main/resources/texture/2048.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/src/main/resources/texture/256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/src/main/resources/texture/32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/src/main/resources/texture/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/src/main/resources/texture/512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/src/main/resources/texture/64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/src/main/resources/texture/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2048Game/src/main/resources/texture/empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Miner/Miner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Miner/Miner.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Miner/src/graphics/GraphicsModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Miner/src/graphics/GraphicsModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Miner/src/graphics/module/GraphicsModules.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Miner/src/graphics/module/GraphicsModules.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Miner/src/graphics/module/SpriteSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Miner/src/graphics/module/SpriteSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Miner/src/keyboard/KeyboardHandleModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Miner/src/keyboard/KeyboardHandleModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Miner/src/main/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Miner/src/main/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Miner/src/main/CellState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Miner/src/main/CellState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Miner/src/main/ClickResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Miner/src/main/ClickResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Miner/src/main/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Miner/src/main/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Miner/src/main/ErrorCatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Miner/src/main/ErrorCatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Miner/src/main/GameField.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Miner/src/main/GameField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Miner/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Miner/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Miner/src/mouse/Click.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Miner/src/mouse/Click.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Miner/src/mouse/MouseHandleModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Miner/src/mouse/MouseHandleModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Miner/src/mouse/module/MouseHandleModules.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Miner/src/mouse/module/MouseHandleModules.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Snake4Tproger/main/Cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Snake4Tproger/main/Cell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Snake4Tproger/main/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Snake4Tproger/main/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Snake4Tproger/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Snake4Tproger/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tprogersMinesweeper/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tprogersMinesweeper/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Snake/.idea/Snake.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Snake/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Snake/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Snake/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Snake/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Snake/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Snake/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Snake/src/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Snake/src/Snake.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Snake4Tproger" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#Main#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GUI.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/GUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="34" column="5" selection-start-line="21" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#drawElement#0;class#GUI#0" expanded="false" />
-                <element signature="method#initializeOpenGL#0;class#GUI#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,31 +186,15 @@
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Main.java" />
-        <option value="$PROJECT_DIR$/src/GUI_Element.java" />
-        <option value="$PROJECT_DIR$/src/Sprite.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/GUIElement.java" />
-        <option value="$PROJECT_DIR$/src/Constants.java" />
-        <option value="$PROJECT_DIR$/src/GUI.java" />
-        <option value="$PROJECT_DIR$/src/main/Player.java" />
-        <option value="$PROJECT_DIR$/src/main/Sprite.java" />
-        <option value="$PROJECT_DIR$/src/main/GUIElement.java" />
-        <option value="$PROJECT_DIR$/src/main/Constants.java" />
-        <option value="$PROJECT_DIR$/src/main/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/GUI.java" />
-        <option value="$PROJECT_DIR$/src/main/Cell.java" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="27" />
     <option name="width" value="1280" />
     <option name="height" value="997" />
   </component>
+  <component name="ProjectId" id="1mFOghnnNpRG5IXWeXo0yMwlRTT" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -101,117 +211,27 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Snake4Tproger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Snake4Tproger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Snake4Tproger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Snake4Tproger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Snake4Tproger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Snake4Tproger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Snake4Tproger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/slick-util.jar!/" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tprogersTetris" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.Main" />
-      <option name="VM_PARAMETERS" value="-Djava.library.path=lib/native/" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Snake4Tproger" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -220,50 +240,33 @@
       <module />
       <method />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" value="Main.java" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="Snake4Tproger" />
-      <envs />
-      <method />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=lib/native/" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Java Scratch">
+      <option name="MAIN_CLASS_NAME" value="Main.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
       <option name="filePath" />
@@ -273,40 +276,67 @@
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" />
       <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-    </list>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <list>
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
-    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-    </configuration>
-    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-    </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1609085987060</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609085987060</updated>
+    </task>
+    <servers />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -317,149 +347,35 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1280" height="997" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328341" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976957" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="4" />
-    </breakpoint-manager>
-    <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#Main#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/GUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#drawElement#0;class#GUI#0" expanded="false" />
-            <element signature="method#initializeOpenGL#0;class#GUI#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Cell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Sprite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Snake4Tproger.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/GUI_Element.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/Player.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/GUIElement.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#Main#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Sprite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Cell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="77" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/GUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="34" column="5" selection-start-line="21" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#drawElement#0;class#GUI#0" expanded="false" />
-            <element signature="method#initializeOpenGL#0;class#GUI#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="742" y="207" key="FileChooserDialogImpl" timestamp="1609143005647">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="742" y="207" key="FileChooserDialogImpl/0.0.1600.870@0.0.1600.870" timestamp="1609143005647" />
+    <state width="1035" height="181" key="GridCell.Tab.0.bottom" timestamp="1609086105782">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1035" height="181" key="GridCell.Tab.0.bottom/0.0.1600.870@0.0.1600.870" timestamp="1609086105782" />
+    <state width="1035" height="181" key="GridCell.Tab.0.center" timestamp="1609086105781">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1035" height="181" key="GridCell.Tab.0.center/0.0.1600.870@0.0.1600.870" timestamp="1609086105781" />
+    <state width="1035" height="181" key="GridCell.Tab.0.left" timestamp="1609086105781">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1035" height="181" key="GridCell.Tab.0.left/0.0.1600.870@0.0.1600.870" timestamp="1609086105781" />
+    <state width="1035" height="181" key="GridCell.Tab.0.right" timestamp="1609086105782">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1035" height="181" key="GridCell.Tab.0.right/0.0.1600.870@0.0.1600.870" timestamp="1609086105782" />
+    <state x="658" y="289" key="com.intellij.ide.util.TipDialog" timestamp="1609142847377">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="658" y="289" key="com.intellij.ide.util.TipDialog/0.0.1600.870@0.0.1600.870" timestamp="1609142847377" />
+    <state x="345" y="86" key="new project wizard" timestamp="1609142964520">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="345" y="86" key="new project wizard/0.0.1600.870@0.0.1600.870" timestamp="1609142964520" />
   </component>
   <component name="masterDetails">
     <states>

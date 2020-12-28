@@ -5,8 +5,6 @@ import org.lwjgl.input.Mouse;
 
 import java.util.LinkedList;
 
-import static main.Constants.CELL_SIZE;
-
 //Реализует считывание с мыши необходимых игре параметров
 public class MouseHandleModules implements mouse.MouseHandleModule {
     LinkedList<Click> stack;
@@ -19,10 +17,9 @@ public class MouseHandleModules implements mouse.MouseHandleModule {
             ///Если это было нажатие кнопки мыши, а не
             ///перемещение...
             if (Mouse.getEventButton()>=0&&Mouse.getEventButtonState()){
-                int x=Mouse.getEventX()/CELL_SIZE;
-                int y=Mouse.getEventY()/CELL_SIZE;
+                int x=Mouse.getEventX()/10;
+                int y=Mouse.getEventY()/10;
                 int button =Mouse.getEventButton();
-
                 stack.add(new Click(x,y,button));
             }
         }
@@ -32,8 +29,6 @@ public class MouseHandleModules implements mouse.MouseHandleModule {
         stack=new LinkedList<>();
     }
       //Возвращает стек кликов, произешдших за последнюю итерацию.
-
-
     public LinkedList<Click> getClickStack(){
         return stack;
     }

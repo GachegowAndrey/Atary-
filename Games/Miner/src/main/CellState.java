@@ -1,4 +1,8 @@
 package main;
+//Содержит все возможные состояния клетки
+public enum  CellState {
+    EMPTY, /* В клетке нет мины */
+    MINE,/* В клетке есть мина, но она не взорвана */
+    DETONATED,/* В клетке есть мина и она взорвана*/
 
-public class CellState {
 }

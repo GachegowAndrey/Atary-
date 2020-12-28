@@ -1,6 +1,7 @@
 package graphics.module;
 //Реализует графический модуль игры на основе LWJGL.
 
+import graphics.GraphicsModule;
 import main.*;
 import org.lwjgl.opengl.Display;
 import org.lwjgl.opengl.DisplayMode;
@@ -8,8 +9,8 @@ import org.lwjgl.opengl.DisplayMode;
 import static main.Constants.*;
 import static org.lwjgl.opengl.GL11.*;
 
-public class GraphicsModules {
-    private SpriteSystem spriteSystem;
+public class GraphicsModules implements GraphicsModule {
+     SpriteSystem spriteSystem;
     /**
      * Инициализирует графический движок и необходимые поля модуля.
      */
@@ -77,11 +78,11 @@ public class GraphicsModules {
         } else {
             //Если не помечена и не скрыта, выводим как есть
             switch (cell.getState()){
-                case EMPTY:
                 case MINE:
                     return SpriteSystem.Sprite.MINE;
                 case DETONATED:
                     return SpriteSystem.Sprite.EXPLOSION;
+                case EMPTY:
                 default:
                     if (minesNear>8||minesNear<0){
                         ErrorCatcher.cantDisplayCellWrongMinesNear();
