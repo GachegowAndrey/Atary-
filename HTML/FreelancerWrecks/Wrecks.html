@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wrecks</title>
+    <script>document.documentElement.className = 'hasJS';</script>
+    <style>
+	style{word-wrap: break-word;}
+
+table {
+                    width: 75%;
+                    font-size: 11pt;
+                       }
+                table, th, td {
+                    border: 2px solid #ffcece;
+                    border-collapse: collapse;
+                    text-align: center;
+                    table-layout: fixed;
+                       }td { word-wrap:break-word; }
+	.table_sort table {
+    border-collapse: collapse;
+}
+
+.table_sort th {
+    color: #ffebcd;
+    background: #22AAFF;
+    cursor: pointer;
+}
+
+.table_sort td,
+.table_sort th {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #846868;
+}
+
+.table_sort tbody tr:nth-child(even) {
+    background: #e3e3e3;
+}
+
+th.sorted[data-order="1"],
+th.sorted[data-order="-1"] {
+    position: relative;
+}
+
+th.sorted[data-order="1"]::after,
+th.sorted[data-order="-1"]::after {
+    right: 8px;
+    position: absolute;
+}
+
+th.sorted[data-order="-1"]::after {
+	content: 'v'
+}
+
+th.sorted[data-order="1"]::after {
+	content: '^'
+}
+
+
+}*/
+	</style>
+
+</head>
+<body>
+
+<h1><p align="center">
+    Descriptions and things to point out </p></h1>
+
+<ul type = "circle">
+    <li>Layout - The following tables are an area by area description of where wrecks are
+        located, what items you can obtain from those wrecks, and what potential
+        hazards can await you when finding these wrecks. Main systems are listed
+        by capital first, then other systems in capital order (e.g. New York,
+        California, Colorado, Texas)</li>
+    <li>
+        Location - Location gives the sector square that the wreck is located, as well as a
+        general location inside that square. The general locations are keyed in as
+        follows: C = Center, CL = Center Left, CR = Center Right, UC = Upper Center
+        UL = Upper Left, UR = Upper Right, LC = Lower Center, LL = Lower Left,
+        LR = Lower Right.</li>
+    <li>Hazards - There are four different types of hazards that can be found in the
+        various wreck locations (minus pirate factions). These hazards are
+        described below:<ul type = "disc">
+
+            <li> - Reduced Sensor Efficiency (RSE):
+                Basically, this means that any nearby enemies will only show up on your
+                sensors when they're a lot closer to you than normal, which means you
+                can't target them until they start shooting you.</li>
+            <li> - Radiation:
+                Radiation damage penetrates your shields and immediately does damage to
+                your hull, weapons and systems gradually. Make sure you bring plenty of
+                nanobots with you, and hope a stray shot doesn't immediately rob you of
+                a weapon quicker than expected.</li>
+            <li>- Minefields:
+                These are deadly. Displayed as very spikey explosives the same colour as
+                the surrounding asteroids, if you stray close to one, the mine explodes
+                and you lose a very large chunk of your shields. Don't even try to go to
+                cruise speed in these fields. If you happen to be unshielded when a mine
+                explodes, well...prepare to press the autoload/respawn button...</li>
+            <li>  - Volatile gases:
+                These are similiar to mines in that they explode and damage you when you
+                fly too close to them. Fortunately, they aren't as powerful as mines, but
+                they make up for this by having a helluva lot more of them to navigate
+                around.</li>
+
+            Fortunately, enemy ships are just as susceptible to these hazards as you are
+            so as long as you're a good pilot, you can risk escaping the enemy and let
+            them get destroyed by the mines and volatile gases while searching for the
+            wrecks.</li></ul> </ul>
+
+
+
+
+
+<table class="table_sort"><thead>
+<tr>
+    <th><font color="#FaF000">States</font></th>
+    <th><font color="#FaF000">Systems</font></th>
+    <th><font color="#FaF000">Name</font></th>
+    <th><font color="#FaF000">Location</font></th>
+    <th><font color="#FaF000">Weapon</font></th>
+    <th><font color="#FaF000">Commodities</font></th>
+    <th><font color="#FaF000">Hazards</font></th>
+</tr></thead>
+
+    <tbody>
+    <tr>
+        <td><a>Liberty</a></td>
+        <td><a>New York</a></td>
+        <td class ="selected"><a>Aggresor</a></td>
+        <td class ="selected"><a>6D (UR)</a></td>
+        <td class ="selected"><a>Gunslinger Mk. 1 (x4)</br>
+            Gunslinger Turret Mk. 1</a></td>
+        <td class ="selected"><a>None</a></td>
+        <td class ="selected"><a>Radiation</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Liberty</a></td>
+        <td>New York</td>
+        <td class ="selected">Patrol 27 (X3)</td>
+        <td class ="selected">6E (C)</td>
+        <td class ="selected"><a>
+            Justice Mk III (X3)</a></td>
+        <td class ="selected"><a>None</a></td>
+        <td class ="selected"><a>Radiation</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Liberty</a></td>
+        <td>New York</td>
+        <td class ="selected">Flint</td>
+        <td class ="selected">6C (LR)</td>
+        <td class ="selected"><a>
+            Azrael (X2)</br>
+            Badarael Turret</a></td>
+        <td class ="selected"><a>Cardamine (20)</a></td>
+        <td class ="selected"><a>Radiation</a></td>
+    </tr>
+
+
+    <tr>
+        <td><a>Liberty</a></td>
+        <td><a>California</a></td>
+        <td class ="selected"><a>Balboa</a></td>
+        <td class ="selected"><a>5C (LR)</a></td>
+        <td class ="selected"><a>
+            Pyros Type 1 Turret</br>
+            Pyros Type 2 (X2)</br>
+            Wasp Cruise Disruptor(X2)</a></td>
+        <td class ="selected"><a>Cardamine (20)</a></td>
+        <td class ="selected"><a>RSE</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Liberty</a></td>
+        <td><a>Texas</a></td>
+        <td class ="selected"><a>Prudhoe</a></td>
+        <td class ="selected"><a>3D (LL)</a></td>
+        <td class ="selected"><a>
+            Usiel (X2)</br>Vengeance Turret</a></td>
+        <td class ="selected"><a>Diamonds (20)</a></td>
+        <td class ="selected"><a>Radiation</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Liberty</a></td>
+        <td><a>Texas</a></td>
+        <td class ="selected"><a>Avenger</a></td>
+        <td class ="selected"><a>4C (UR)</a></td>
+        <td class ="selected"><a>Winchester Mk. 1 (X 2)</br>
+            Catapult Missile (X 2)</br>
+            Gunslinger Turret</a></td>
+        <td class ="selected"><a>None</a></td>
+        <td class ="selected"><a>Radiation</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Liberty</a></td>
+        <td><a>Texas</a></td>
+        <td class ="selected"><a>Dallas</br> Storage</br>Container</a></td>
+        <td class ="selected"><a>6C (UC)</a></td>
+        <td class ="selected"><a>None</a></td>
+        <td class ="selected"><a>Superconductors (40)</a></td>
+        <td class ="selected"><a>Radiation</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Liberty</a></td>
+        <td><a>Texas</a></td>
+        <td class ="selected"><a>Supply Ship</br>
+            Ft. Worth</a></td>
+        <td class ="selected"><a>6C (LR)</a></td>
+        <td class ="selected"><a>
+            Usiel (X2)</br>Vengeance Turret</a></td>
+        <td class ="selected"><a>Gate and Lane Parts (20)</a></td>
+        <td class ="selected"><a>Radiation</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Bretonia</a></td>
+        <td><a>New London</a></td>
+        <td class ="selected"><a>Puno</a></td>
+        <td class ="selected"><a>3C (LC)</a></td>
+        <td class ="selected"><a>Dragoon Turret Type 1</a></td>
+        <td class ="selected"><a>Cardamine (20)</a></td>
+        <td class ="selected"><a>Radiation</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Bretonia</a></td>
+        <td><a>New London</a></td>
+        <td class ="selected"><a>Vanguard	</a></td>
+        <td class ="selected"><a>5C (LL)</a></td>
+        <td class ="selected"><a>Dublin Duster Mk. 1 (X 2)</a></td>
+        <td class ="selected"><a>Gold (20)</a></td>
+        <td class ="selected"><a>Volatile Gases</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Bretonia</a></td>
+        <td><a>New London</a></td>
+        <td class ="selected"><a>Trujillo</a></td>
+        <td class ="selected"><a>4G (LL)</a></td>
+        <td class ="selected"><a>Angelito Mk. 1 (X 2)</a></td>
+        <td class ="selected"><a>Artifacts (20)</a></td>
+        <td class ="selected"><a>Volatile Gases</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Bretonia</a></td>
+        <td><a>Cambridge</a></td>
+        <td class ="selected"><a>Henry Jones</a></td>
+        <td class ="selected"><a>5F (LL)</a></td>
+        <td class ="selected"><a>Starbeam Turret (X 6)</a></td>
+        <td class ="selected"><a>Gold (10)</a></td>
+        <td class ="selected"><a>Volatile Gases</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Bretonia</a></td>
+        <td><a>Cambridge</a></td>
+        <td class ="selected"><a>Caraz</a></td>
+        <td class ="selected"><a>6E (CR)</a></td>
+        <td class ="selected"><a>Angelito Mk. 1 (X 2)</a></td>
+        <td class ="selected"><a>Artifacts (20)</a></td>
+        <td class ="selected"><a>None</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Bretonia</a></td>
+        <td><a>Dublin</a></td>
+        <td class ="selected"><a>Scargill</a></td>
+        <td class ="selected"><a>6E (UR)</a></td>
+        <td class ="selected"><a>Dublin Duster Mk. 2 (X 2)</a></td>
+        <td class ="selected"><a>Gold (20)</a></td>
+        <td class ="selected"><a>Minefield
+            RSE</a></td>
+    </tr>
+
+
+    <tr>
+        <td><a>Bretonia</a></td>
+        <td><a>Dublin</a></td>
+        <td class ="selected"><a>Storm</a></td>
+        <td class ="selected"><a>6D (CL)</a></td>
+        <td class ="selected"><a>Adv. Ripper (X 2)</a></td>
+        <td class ="selected"><a>None</a></td>
+        <td class ="selected"><a>Minefield
+            RSE</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Bretonia</a></td>
+        <td><a>Leeds</a></td>
+        <td class ="selected"><a>Lorenzo</a></td>
+        <td class ="selected"><a>2C (LR)</a></td>
+        <td class ="selected"><a>	Pyros Type 2 (X 2)</br>
+            Dragoon Turret Type 1</a></td>
+        <td class ="selected"><a>Cardamine (20)</a></td>
+        <td class ="selected"><a>Radiation</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Bretonia</a></td>
+        <td><a>Leeds</a></td>
+        <td class ="selected"><a>San Vicente</a></td>
+        <td class ="selected"><a>6D (CL)</a></td>
+        <td class ="selected"><a>Dragoon Type 2 (X 2)</br>
+            Dragoon Turret Type 1</a></td>
+        <td class ="selected"><a>None</a></td>
+        <td class ="selected"><a>
+            RSE</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Bretonia</a></td>
+        <td><a>Magellan</a></td>
+        <td class ="selected"><a>Bradley</a></td>
+        <td class ="selected"><a>7C (C)</a></td>
+        <td class ="selected"><a>None</a></td>
+        <td class ="selected"><a>Gate and Lane Parts (20)</a></td>
+        <td class ="selected"><a>None</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Kusari</a></td>
+        <td><a>Hokkaido</a></td>
+        <td class ="selected"><a>Naval Force</br>
+            Battlefield (X3)</a></td>
+        <td class ="selected"><a>3C (C)</a></td>
+        <td class ="selected"><a>Scrambler 2 (X 2)</br>
+            Sunfury 2 (X 2)</br>
+            Disinfector Mk. 1 (X 2)</a></td>
+        <td class ="selected"><a>None</a></td>
+        <td class ="selected"><a>RSE</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Kusari</a></td>
+        <td><a>Hokkaido</a></td>
+        <td class ="selected"><a>James Morrell</a></td>
+        <td class ="selected"><a>4F (UR)</a></td>
+        <td class ="selected"><a>None</a></td>
+        <td class ="selected"><a>Trade Lane Parts (10)</a></td>
+        <td class ="selected"><a>RSE</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Kusari</a></td>
+        <td><a>Kyushu</a></td>
+        <td class ="selected"><a>Ohtori</a></td>
+        <td class ="selected"><a>2D (BC)</a></td>
+        <td class ="selected"><a>Suncannon Type B(X 2)</a></td>
+        <td class ="selected"><a>None</a></td>
+        <td class ="selected"><a>RSE</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Kusari</a></td>
+        <td><a>Kyushu</a></td>
+        <td class ="selected"><a>Shoki</a></td>
+        <td class ="selected"><a>4B (C)</a></td>
+        <td class ="selected"><a>Wakazashi (X 2)</br>
+            Tanto Turret</a></td>
+        <td class ="selected"><a>None</a></td>
+        <td class ="selected"><a>RSE</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Kusari</a></td>
+        <td><a>Shikoku</a></td>
+        <td class ="selected"><a>Shibuya Maru</a></td>
+        <td class ="selected"><a>6D (CL)</a></td>
+        <td class ="selected"><a>Suncannon Type B (x2)</a></td>
+        <td class ="selected"><a>Cardamine (20)</a></td>
+        <td class ="selected"><a>RSE</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Kusari</a></td>
+        <td><a>Shikoku</a></td>
+        <td class ="selected"><a>Kobe Maru</a></td>
+        <td class ="selected"><a>5C (L)</a></td>
+        <td class ="selected"><a>Drake Type A (x2)</a></td>
+        <td class ="selected"><a>Artifacts (20)</a></td>
+        <td class ="selected"><a>RSE</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Rheinland</a></td>
+        <td><a>New Berlin</a></td>
+        <td class ="selected"><a>Hessian Fighter</a></td>
+        <td class ="selected"><a>3C (LR)</a></td>
+        <td class ="selected"><a>Natter Zwei (x2)</br>
+            Natter Turret</a></td>
+        <td class ="selected"><a>None</a></td>
+        <td class ="selected"><a>Radiation</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Rheinland</a></td>
+        <td><a>New Berlin</a></td>
+        <td class ="selected"><a>Unioner Fighter</a></td>
+        <td class ="selected"><a>3C (UC)</a></td>
+        <td class ="selected"><a>Protector Mk I(x2)</a></td>
+        <td class ="selected"><a>None</a></td>
+        <td class ="selected"><a>Radiation</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Rheinland</a></td>
+        <td><a>Dresden</a></td>
+        <td class ="selected"><a>Danzig</a></td>
+        <td class ="selected"><a>3D(UR)</a></td>
+        <td class ="selected"><a>Advanced Starbeam x2)</br>
+            Adv. Starbeam Turret (x2)</a></td>
+        <td class ="selected"><a>Diamonds (20)</a></td>
+        <td class ="selected"><a>Radiation</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Rheinland</a></td>
+        <td><a>Stuttgart</a></td>
+        <td class ="selected"><a>Babylon</a></td>
+        <td class ="selected"><a>5F (CR)</a></td>
+        <td class ="selected"><a>Starbeam Turret(x6)</a></td>
+        <td class ="selected"><a>Luxury Consumer Goods(10)</a></td>
+        <td class ="selected"><a>RSE</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Rheinland</a></td>
+        <td><a>Stuttgart</a></td>
+        <td class ="selected"><a>Belknap</a></td>
+        <td class ="selected"><a>4G (CL)</a></td>
+        <td class ="selected"><a>None</a></td>
+        <td class ="selected"><a>Luxury Foods(20)</a></td>
+        <td class ="selected"><a>RSE</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Rheinland</a></td>
+        <td><a>Stuttgart</a></td>
+        <td class ="selected"><a>Nurnberg</a></td>
+        <td class ="selected"><a>6C (C)</a></td>
+        <td class ="selected"><a>Natter (x2)</br>
+            Natter Turret Type 1</a></td>
+        <td class ="selected"><a>Light Arms (20)</a></td>
+        <td class ="selected"><a>RSE</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Rheinland</a></td>
+        <td><a>Stuttgart</a></td>
+        <td class ="selected"><a>Patrol 421(x2)</a></td>
+        <td class ="selected"><a>6D (UL)</a></td>
+        <td class ="selected"><a>Stealthblade Mk I (x2)</br>
+            Stealthblade Mk II(x2)</a></td>
+        <td class ="selected"><a>None</a></td>
+        <td class ="selected"><a>RSE</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Border Worlds</a></td>
+        <td><a>Omega 5</a></td>
+        <td class ="selected"><a>Omega 5</br>
+            Battlefield</a></td>
+        <td class ="selected"><a>5E/D</a></td>
+        <td class ="selected"><a>Salamanca Mk. I(x2)</br>
+            Natter(x2)</br>
+            Rotter Blitz Turret</br>
+            Angelito Mk. I(x2)</br>
+            Natter Turn(x2)
+            Natter Turret</a></td>
+        <td class ="selected"><a>None</a></td>
+        <td class ="selected"><a>Mines</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Border Worlds</a></td>
+        <td><a>Omega 7</a></td>
+        <td class ="selected"><a>Bremerheaven</a></td>
+        <td class ="selected"><a>(E6)</a></td>
+        <td class ="selected"><a>None</a></td>
+        <td class ="selected"><a>19x  Engine Components(20)</a></td>
+        <td class ="selected"><a>Volatile Gases</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Border Worlds</a></td>
+        <td><a>Omega 7</a></td>
+        <td class ="selected"><a> 3x Corsair Fighters</a></td>
+        <td class ="selected"><a>5C (LL)</a></td>
+        <td class ="selected"><a>Angelito Mk. 1(x6)</a></td>
+        <td class ="selected"><a>Luxury Consumer Goods(10)</a></td>
+        <td class ="selected"><a>Volatile Gases</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Border Worlds</a></td>
+        <td><a>Omega 7</a></td>
+        <td class ="selected"><a> Monschau </a></td>
+        <td class ="selected"><a>(E3)</a></td>
+        <td class ="selected"><a>Starbeam Turret(x6)</a></td>
+        <td class ="selected"><a>Silver (5) </a></td>
+        <td class ="selected"><a>None</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Border Worlds</a></td>
+        <td><a>Omega 11</a></td>
+        <td class ="selected"><a>Hessian Fighter	</a></td>
+        <td class ="selected"><a> 5F (CL)</a></td>
+        <td class ="selected"><a>Natterturn (x2)</a></td>
+        <td class ="selected"><a>Diamonds (10)</a></td>
+        <td class ="selected"><a>Radiation</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Border Worlds</a></td>
+        <td><a>Omega 11</a></td>
+        <td class ="selected"><a>Bounty Hunter</a></td>
+        <td class ="selected"><a> 6E (UL) </a></td>
+        <td class ="selected"><a>GOLDENBLADE(x2)</br>Gunslinger Turret</a></td>
+        <td class ="selected"><a>Diamonds (20)</a></td>
+        <td class ="selected"><a>Radiation</a></td>
+    </tr>
+    <tr>
+        <td><a>Border Worlds</a></td>
+        <td><a>Omega 11</a></td>
+        <td class ="selected"><a>Corsair  Fighter	</a></td>
+        <td class ="selected"><a>  6D (UR) </a></td>
+        <td class ="selected"><a>Salamanca Mk. 1(x2)</a></td>
+        <td class ="selected"><a>Diamonds (20) </a></td>
+        <td class ="selected"><a>Radiation</a></td>
+    </tr>
+    <tr>
+        <td><a>Border Worlds</a></td>
+        <td><a>Omega 11</a></td>
+        <td class ="selected"><a>Daumann Fighter</a></td>
+        <td class ="selected"><a> 6E (UL)</a></td>
+        <td class ="selected"><a>Flashpoint (x2)</a></td>
+        <td class ="selected"><a>Diamonds (5)</a></td>
+        <td class ="selected"><a>Radiation</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Border Worlds</a></td>
+        <td><a>Sigma-13</a></td>
+        <td class ="selected"><a>Imperial</br> Navy Fight</a></td>
+        <td class ="selected"><a> 3C (LR)</a></td>
+        <td class ="selected"><a>IRON HAMMER(x2)</a></td>
+        <td class ="selected"><a>None</a></td>
+        <td class ="selected"><a>Volatile Gases</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Border Worlds</a></td>
+        <td><a>Sigma-13</a></td>
+        <td class ="selected"><a>Kassel</a></td>
+        <td class ="selected"><a> 3C (LR)</a></td>
+        <td class ="selected"><a>SILVER FIRE (x2)</a></td>
+        <td class ="selected"><a>None</a></td>
+        <td class ="selected"><a>Volatile Gases</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Border Worlds</a></td>
+        <td><a>Sigma-13</a></td>
+        <td class ="selected"><a>Imperial</br> Navy Fight</a></td>
+        <td class ="selected"><a>4C (LL)</a></td>
+        <td class ="selected"><a>ONYX(x2)</br>Drone Mines (X 20)</br>Wasp Missiles (X 5)</a></td>
+        <td class ="selected"><a>None</a></td>
+        <td class ="selected"><a>None</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Border Worlds</a></td>
+        <td><a>Sigma-13</a></td>
+        <td class ="selected"><a>Imperial</br> Navy Fight</a></td>
+        <td class ="selected"><a> 4C (UC)</a></td>
+        <td class ="selected"><a>BLOODSTONE(x2)</br>Drone Mines (X 20)</br>Wasp Missiles (X 5)</a></td>
+        <td class ="selected"><a>None</a></td>
+        <td class ="selected"><a>Volatile Gases</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Border Worlds</a></td>
+        <td><a>Sigma-13</a></td>
+        <td class ="selected"><a>Imperial</br> Navy Fight</a></td>
+        <td class ="selected"><a>5C (CL)</a></td>
+        <td class ="selected"><a>JADE (x2)</br>Drone Mines (X 20)</br>Wasp Missiles (X 5)Cruise Disruptor	</a></td>
+        <td class ="selected"><a>None</a></td>
+        <td class ="selected"><a>Radiation</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Border Worlds</a></td>
+        <td><a>Sigma-13</a></td>
+        <td class ="selected"><a>Imperial</br> Navy Fight</a></td>
+        <td class ="selected"><a> 5C (LR)</a></td>
+        <td class ="selected"><a>DIAMONDBACK(x2)</br>Drone Mines (X 20)</br>Wasp Missiles (X 5)</a></td>
+        <td class ="selected"><a>None</a></td>
+        <td class ="selected"><a>Radiation</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Border Worlds</a></td>
+        <td><a>Sigma-17</a></td>
+        <td class ="selected"><a>Imperial</br>Mongoose</a></td>
+        <td class ="selected"><a>6E (UR) </a></td>
+        <td class ="selected"><a>BLUE BLAZE(x2)</br>Gunslinger Mk 1 Turret </br>Paralyzer Missile (X 10)</a></td>
+        <td class ="selected"><a>None</a></td>
+        <td class ="selected"><a>Radiation</a></td>
+    </tr>
+
+    <tr>
+        <td><a>Border Worlds</a></td>
+        <td><a>Sigma-17</a></td>
+        <td class ="selected"><a>Robert Fitzgerald</a></td>
+        <td class ="selected"><a>4F (LC) </a></td>
+        <td class ="selected"><a>Heavy Starbeam (x2)</br>Adv. Starbeam Turr. (X 3)</a></td>
+        <td class ="selected"><a>Alien Organisms (20)</a></td>
+        <td class ="selected"><a>Radiation</a></td>
+    </tr>
+
+
+
+    </tbody>
+
+</table>
+
+
+
+
+
+<script>
+ const getSort = ({ target }) => {
+        const order = (target.dataset.order = -(target.dataset.order || -1));
+        const index = [...target.parentNode.cells].indexOf(target);
+        const collator = new Intl.Collator(['en', 'ru'], { numeric: true });
+        const comparator = (index, order) => (a, b) => order * collator.compare(
+            a.children[index].innerHTML,
+            b.children[index].innerHTML
+        );
+
+        for(const tBody of target.closest('table').tBodies)
+            tBody.append(...[...tBody.rows].sort(comparator(index, order)));
+
+        for(const cell of target.parentNode.cells)
+            cell.classList.toggle('sorted', cell === target);
+    };
+
+    document.querySelectorAll('.table_sort thead').forEach(tableTH => tableTH.addEventListener('click', () => getSort(event)));
+	</script>
+
+</body>
+</html>
