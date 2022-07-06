@@ -1,7 +1,9 @@
-
+<!DOCTYPE html>
 <html>
 	<head>
+  <meta charset="utf-8" />
         <title> My Page</title>
+		
 		<style>
 		p{
 		  color:blue;
@@ -89,9 +91,25 @@ input[name='jobtype'] {
 }
 		</style>
 		
-
+<script>
+ function Complete() {
+ 	
+ 
+ 	document.getElementById("Example").innerHTML="<HR>"+
+ 	"You are welcome "+document.sell.Name.value+
+ 	"! </br> Are you from "+document.sell.Place.value+
+ 	" and you are "+document.sell.Age.value+" ,right?"+
+ 	" </br> And i will call you later. Is this your phone "+document.sell.Phone.value+
+ 	" ?  </br> Thank you for this information :"+document.sell.Message.value+" !"
+ 	+"</HR>";
+ }
+ function Reset() {
+ 	document.getElementById("Example").innerHTML="";
+ }
+</script>		
 	</head>
-	<body style="background-color:rgb(150,250,150)">
+	
+	<body style=" background-color: #DDFFFF">
        
             <h1><p  style="color:red" ><i>Andrey Gachegov</i></p></h1>
 		    <h1><p><span>About Me</span></p></h1>
@@ -164,18 +182,19 @@ input[name='jobtype'] {
 
 </li>
 </ul>	
+
   <h1><p><span>My language progress</span></p></h1>
     <ul>
                 <details>
                    <summary>English </summary><ul>
-				    <li><p>Crowns: 288/636  complete</p>
-                    <progress  value="288" max="636" ></progress>
-					<li><p>Skills: 77/129  complete</p>
-                    <progress  value="77" max="129" ></progress>
-					<li><p>Lessons: 443/614 complete</p>
-                    <progress  value="443" max="614"></progress>
-					<li><p>Lexemes: 3208/4099 complete</p>
-                    <progress  value="3208" max="4099"></progress></ul>
+				    <li><p>Crowns: 311/774  complete</p>
+                    <progress  value="311" max="774" ></progress>
+					<li><p>Skills: 100/129  complete</p>
+                    <progress  value="100" max="129" ></progress>
+					<li><p>Lessons: 525/614 complete</p>
+                    <progress  value="525" max="614"></progress>
+					<li><p>Lexemes: 3655/4099 complete</p>
+                    <progress  value="3655" max="4099"></progress></ul>
                 </li></details>
 				
 				<details>
@@ -310,13 +329,16 @@ input[name='jobtype'] {
 			  />
 			</svg>
    
-   <form>
-     <input name ="name" placeholder="Name" type ="text" required/><br/>
-	 <input name ="email" placeholder="Email" type ="email" required/><br/>
-	 <textarea name ="message" placeholder="Message" required ></textarea>
-	 <input type="submit" value ="SEND" class="submit"/>
+  <form name="sell">
+    <input name="Name" placeholder="Name"  > <br/> 
+    <input name="Age" placeholder="Age" > <br/>
+    <input name="Phone" placeholder="Phone" ><br/>
+    <input name="Place" placeholder="Place" ><br/> 
+    <textarea name ="Message" placeholder="Message"></textarea><br/>
+    <input TYPE="button" VALUE="Готово" onClick="Complete();"><br/> 
+    <input TYPE="reset" VALUE="Сброс"onClick="Reset()"><br/>   
    </form>
-
+<div id="Example"></div>
 </div>
 
 	</body>

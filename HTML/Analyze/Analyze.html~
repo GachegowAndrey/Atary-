@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Erty</title>
+<script>
+        
+        function Complete() {
+ 	
+ 	document.getElementById("Example").innerHTML="<HR>"
+ 	+ 	"Наименование закупки: "+document.sell.a.value
+ 	+" <br/> Цена контракта:"+document.sell.b.value
+ 	+" <br/> Площадка проведения закупки: "+document.sell.c.value
+ 	+" <br/> Тип закупки : "+document.sell.d.value
+ 	+" <br/> Сумма обеспечения заявки:  "+document.sell.e.value
+ 	+" <br/> Дата завершения подачи разъяснений:  "+document.sell.f.value
+ 	+" <br/> Дата окончания подачи заявок:  "+document.sell.g.value
+ 	+" <br/> Дата аукциона/подачи окончательных предложений:  "+document.sell.h.value
+ 	+" <br/> Дата подведения итогов:  "+document.sell.i.value
+ 	+" <br/> Срок оказания услуги:  "+document.sell.j.value
+ 	+" <br/> Место оказания услуги:  "+document.sell.k.value
+ 	+" <br/> Возможность удаленного выполнения работ:  "+document.sell.l.value
+ 	+" <br/> Периодическая ли закупка? (была ранее аналогичная или нет):  "+document.sell.m.value
+ 	+" <br/> Есть ли возможность использования субподрядчиков:  "+document.sell.n.value
+ 	+" <br/> Описание предмета закупки:  "+document.sell.o.value
+ 	+" <br/> Предмет закупки :  "+document.sell.p.value
+ 	+" <br/> Критерии отбора победителя:  "+document.sell.q.value
+   +" <br/> Стек технологий разработки:  "+document.sell.r.value
+
+ 	+"</HR>";
+ }
+        
+        
+    </script>
+</head>
+<body>
+<div id="Example"></div>
+<div >Test</div>
+ <form name="sell">
+    
+  <input TYPE="button" VALUE="Готово" onClick="Complete();"><br/> 
+    <input TYPE="reset" VALUE="Сброс"onClick="Reset()"><br/>    
+   
+
+    <!-- Анкета -->
+    <table>
+        <tr><td><b>Наименование закупки:<b></td>
+            <td><input name="a"  ></td></tr>
+        <tr><td><b>Цена контракта:<b></td>
+            <td><input name="b" 
+                  ></td></tr>
+      <tr><td><b>Площадка проведения закупки (URL):<b></td>
+            <td><input name="c" 
+                  ></td></tr>
+       <tr><td><b>Тип закупки:<b></td>
+            <td><input name="d" 
+                  ></td></tr>
+       <tr><td><b>Сумма обеспечения заявки:<b></td>
+            <td><input name="e" 
+                  ></td></tr>
+       <tr><td><b>Дата завершения подачи разъяснений:<b></td>
+            <td><input name="f" 
+                  ></td></tr>
+       <tr><td><b>Дата окончания подачи заявок:<b></td>
+            <td><input name="g" 
+                 ></td></tr>
+       <tr><td><b>Дата аукциона/подачи окончательных предложений
+:<b></td>
+            <td><input name="h" 
+                 ></td></tr>
+       <tr><td><b>Дата подведения итогов:<b></td>
+            <td><input name="i" 
+                  ></td></tr>
+     <tr><td><b>Срок оказания услуги:<b></td>
+            <td><input name="j" 
+                  ></td></tr>
+                  <tr><td><b>Место оказания услуги:<b></td>
+            <td><input name="k" 
+                  ></td></tr>
+                  <tr><td><b>Возможность удаленного выполнения работ
+:<b></td>
+            <td><input name="l" 
+                  ></td></tr>
+                  <tr><td><b>Периодическая ли закупка? (была ранее аналогичная или нет)
+:<b></td>
+            <td><input name="m" 
+                  ></td></tr>
+                  <tr><td><b>Есть ли возможность использования субподрядчиков:<b></td>
+            <td><input name="n" 
+                  ></td></tr>
+                  <tr><td><b>Описание предмета закупки (своими словами):<b></td>
+            <td><input name="o" 
+                  ></td></tr>
+                  <tr><td><b>Предмет закупки (выдержки задания)
+:<b></td>
+            <td><input name="p" 
+                  ></td></tr>
+                  <tr><td><b>Критерии отбора победителя
+:<b></td>
+            <td><input name="q" 
+                  ></td></tr>
+                  <tr><td><b>Стек технологий разработки:<b></td>
+            <td><input name="r" 
+                  ></td></tr>
+    </table>
+    <!-- Кнопки готовности и сброса -->
+      
+ </form>   
+
+</body>
+</html>

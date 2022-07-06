@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  <meta charset="utf-8" />
+        <title> My Page</title>
+		
+		<style>
+		p{
+		  color:blue;
+		}
+		h1{
+		text-align:center;
+	      }
+		  h1 span {
+           border: 4px dashed #20bcd5;
+           padding: 15px;
+                }
+				table {
+                    width: 75%;
+                    font-size: 11pt;
+                       }
+                table, th, td {
+                    border: 1px solid #0011FF;
+                    border-collapse: collapse;
+                    text-align: center;
+                    table-layout: fixed;
+                       }
+					   
+	
+	progress {
+	border: 0;
+	height: 10px;
+	border-radius: 5px;
+	width: 200px;
+    
+    color: #20bcd7;
+    background: #f3f3f3;
+	
+}
+progress::-webkit-progress-bar {
+    border: 0;
+	height: 10px;
+	border-radius: 5px;
+	width: 200px;
+	background: #FF11AA;
+}
+progress::-webkit-progress-value {
+    border: 0;
+	height: 10px;
+	border-radius: 5px;
+	width: 200px;
+	background: #1122FF;
+} 
+progress::-moz-progress-bar {
+    border: 0;
+	height: 10px;
+	border-radius: 5px;
+	width: 200px;
+	color: #3fb6b5;
+    background: #efefef;
+}
+
+
+		.lbl-jobtype {
+  border: 1px solid black;
+}
+
+input[name='jobtype'] {
+  display: none;
+}
+
+.text-for-jobtype {
+  display: none;
+}
+
+#jt-Spanish:checked~#t-Spanish {
+  display: block;
+}
+
+#jt-German:checked~#t-German {
+  display: block;
+}
+
+#jt-French:checked~#t-French {
+  display: block;
+ 
+}
+#jt-English:checked~#t-English {
+  display: block;
+
+}
+		</style>
+		
+<script>
+ function Complete() {
+ 	
+ 
+ 	document.getElementById("Example").innerHTML="<HR>"+
+ 	"You are welcome "+document.sell.Name.value+
+ 	"! </br> Are you from "+document.sell.Place.value+
+ 	" and you are "+document.sell.Age.value+" ,right?"+
+ 	" </br> And i will call you later. Is this your phone "+document.sell.Phone.value+
+ 	" ?  </br> Thank you for this information :"+document.sell.Message.value+" !"
+ 	+"</HR>";
+ }
+ function Reset() {
+ 	document.getElementById("Example").innerHTML="";
+ }
+</script>		
+	</head>
+	
+	<body style=" background-color: #DDFFFF">
+       
+            <h1><p  style="color:red" ><i>Andrey Gachegov</i></p></h1>
+		    <h1><p><span>About Me</span></p></h1>
+			
+
+
+<input type="radio" name="jobtype" id="jt-French" />
+<label class="lbl-jobtype" for="jt-French">French</label>
+<input type="radio" name="jobtype" id="jt-English" />
+<label class="lbl-jobtype" for="jt-English">English</label>
+<input type="radio" name="jobtype" id="jt-German" />
+<label class="lbl-jobtype" for="jt-German">German</label>
+
+<input type="radio" name="jobtype" id="jt-Spanish" />
+<label class="lbl-jobtype" for="jt-Spanish">Spanish</label>
+
+<p class="text-for-jobtype" id="t-Spanish">No hablo Espanol</p>
+<p class="text-for-jobtype" id="t-English">Hey! I'm <strong>Andrey</strong>. I do not know what to write next. </p>
+<p class="text-for-jobtype" id="t-German">Ich spreche nicht Deutsch</p>
+<p class="text-for-jobtype" id="t-French">je ne parle pas francais</p>
+
+        
+	
+<h1><p><span> Skills and where to find them </span></p></h1>
+
+
+<ul type = "circle">
+<li><a href="https://www.sololearn.com" target="_blank">SoloLearn<a/></li>
+<details>
+<summary>Languages</summary> 
+<ul type = "square">
+   <li>Ruby</li>
+   <li>C++</li>
+   <li>Java</li>
+   <li>PHP</li>
+</ul></details>
+<details>
+<summary>Data Science</summary> 
+<ul type = "square">
+ 
+   <li>Python</li>
+   <li>SQL</li>
+   <li>Data Science</li>
+   <li>Machine Learning</li>
+</ul></details>
+<details>
+<summary>Web</summary> 
+<ul type = "square"> 
+   <li>HTML</li>
+   <li>CSS</li>
+   <li>JavaScript</li>
+</ul></details>
+<li><a href="https://www.duolingo.com/courses" target="_blank">Duolingo</a>
+<details>
+<summary>Types</summary>
+<ul type = "square">
+<li>Learn</li>
+<li>Stories</li>
+<li>More</li>
+<li>Shop</li>
+</ul></details>
+<details>
+<summary>Languages</summary>
+<ul type = "disc">
+<li>English</li>
+<li>French</li>
+<li>German</li>
+<li>Spanish</li></details>
+</ul>
+
+</li>
+</ul>	
+
+  <h1><p><span>My language progress</span></p></h1>
+    <ul>
+                <details>
+                   <summary>English </summary><ul>
+				    <li><p>Crowns: 311/774  complete</p>
+                    <progress  value="311" max="774" ></progress>
+					<li><p>Skills: 100/129  complete</p>
+                    <progress  value="100" max="129" ></progress>
+					<li><p>Lessons: 525/614 complete</p>
+                    <progress  value="525" max="614"></progress>
+					<li><p>Lexemes: 3655/4099 complete</p>
+                    <progress  value="3655" max="4099"></progress></ul>
+                </li></details>
+				
+				<details>
+                   <summary>Spanish </summary><ul>
+				    <li><p>Crowns: 151/1525</p>
+					<progress value="151" max="1525" ></progress>
+                    <li><p>Skills: 40/268</p>
+					<progress value="40" max="268" ></progress>
+                    <li><p>Lessons: 156/1193</p>
+					<progress value="156" max="1193" ></progress>
+                    <li><p>Lexemes: 1013/6447 </p>
+                    <progress value="1013" max="6447" ></progress></ul>
+					</li></details>
+					
+				<details>
+                 <summary>German </summary><ul>
+				<li><p>Crowns: 27/826 complete </p>
+				<progress value="27" max="826" ></progress>
+				<li><p>Skills: 9/137 complete</p>
+				<progress value="9" max="137" ></progress>
+               <li> <p>Lessons: 34/674 complete</p>
+				<progress value="34" max="674" ></progress>
+               <li> <p>Lexemes: 238/4450  complete</p>
+                    <progress value="238" max="4450" ></progress>
+                </li></details>
+                 
+				 <details>
+                 <summary>French </summary><ul>
+				<li><p>Crowns: 17/1408complete</p>
+				<progress  value="17" max="1408" ></progress>
+                <li><p>Skills: 5/247 complete</p>
+				<progress  value="5" max="247" ></progress>
+                <li> <p>Lessons: 22/1206 complete </p>
+				<progress  value="22" max="1206" ></progress>
+                <li> <p>Lexemes: 154/6749  complete</p>
+                    <progress  value="154" max="64709" ></progress>
+                </li></details>
+                
+				
+					
+            </ul>
+ <h1><p><span>My layout progress</span></p></h1>
+    <ul>
+                <li>HTML <br />
+                    <progress min="0" max="100" value="99"></progress>
+                </li>
+                <li>CSS <br />
+                    <progress min="0" max="76" value="45"></progress>
+                </li>
+                <li>JavaScript <br />
+                    <progress min="0" max="100" value="90"></progress>
+                </li>
+				<li>Php <br />
+                    <progress min="0" max="100" value="0"></progress>
+                </li>
+            </ul>
+ <h1><p><span>My Coding Shedule</span></p></h1>
+  
+<table>
+   <tr>
+    <th><font color="#FF0000">Day</font></th>
+	<th><font color="#FF0000">Mon</font></th>
+	<th><font color="#FF0000">Tue</font></th>
+	<th><font color="#FF0000">Wed</font></th>
+	<th><font color="#FF0000">Thu</font></th>
+	<th><font color="#FF0000">Fri</font></th>
+   </tr>
+    
+  <tr> 
+    <td>8-9</td>
+	<td class ="selected">Learn</td>
+	<td class ="selected">Learn</td>
+	<td class ="selected">Theory</td>
+	<td class ="selected">Theory</td>
+	<td class ="selected">Learn</td>
+  </tr>
+  <tr>
+    <td>9-10</td>
+	<td class ="selected">Practice</td>
+	<td class ="selected">Play</td>
+	<td class ="selected">Practice</td>
+	<td class ="selected">Play</td>
+	<td class ="selected">Practice</td>
+  </tr>
+  <tr>
+    <td>13-14</td>
+	<td class ="selected">Play</td>
+	<td class ="selected">Practice</td>
+	<td class ="selected">Play</td>
+	<td class ="selected">Practice</td>
+	<td class ="selected">Play</td>
+  </tr>
+  <tr>
+    <td>15-17</td>
+	<td class ="selected">Code</td>
+	<td class ="selected">Discuss</td>
+	<td class ="selected">Code</td>
+	<td class ="selected">Code</td>
+	<td class ="selected">Discuss</td>
+  </tr>
+  <tr> 
+    <td>18-19</td>
+	<td class ="selected">Discuss</td>
+	<td class ="selected">Code</td>
+	<td class ="selected">Discuss</td>
+	<td class ="selected">Discuss</td>
+	<td class ="selected">Code</td>
+  </tr>
+</table>
+</div>
+<div class ="section">
+   <h1><span>Contact Me</span></h1>
+           <svg class="face" height="100" width="100">
+                <circle cx="50" cy="50" r="50" fill="#FDD835"/>
+                <circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
+                <circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
+                <circle cx="30" cy="30" r="5" fill="#000000"/>
+                <circle cx="70" cy="30" r="5" fill="#000000"/>
+                <path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none" />
+            </svg>
+			<svg class="Star" width="200" height="100">
+			  <path d="M100,10  L105.8,27.2 123.8,27.2 109.4,38
+                114.6,55.2 100,45 85.4,55.2 90.6,38
+                76.2,27.2 94.2,27.2"
+			   style="fill:green; stroke:red; stroke-width:2"
+			  />
+			</svg>
+			<svg class="Star" width="200" height="100">
+			  <path d="M100,10 L121.6,22.5  121.6,47.5
+			   100,60 78.4, 47.52  78.4,22.5 Z"
+			   style="fill:royalblue; stroke:blue; stroke-width:5"
+			  />
+			</svg>
+   
+  <form name="sell">
+    <input name="Name" placeholder="Name"  > <br/> 
+    <input name="Age" placeholder="Age" > <br/>
+    <input name="Phone" placeholder="Phone" ><br/>
+    <input name="Place" placeholder="Place" ><br/> 
+    <textarea name ="Message" placeholder="Message"></textarea><br/>
+    <input TYPE="button" VALUE="Готово" onClick="Complete();"><br/> 
+    <input TYPE="reset" VALUE="Сброс"onClick="Reset()"><br/>   
+   </form>
+<div id="Example"></div>
+</div>
+
+	</body>
+</html>

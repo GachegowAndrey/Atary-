@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Analyze</title>
+<style>table {
+                    width: 75%;
+                    font-size: 11pt;
+                       }
+                table, th, td {
+                    border: 1px solid #0011FF;
+                    border-collapse: collapse;
+                    text-align: center;
+                    table-layout: fixed;
+                       }</style>
+<script>
+        
+        function Complete() {
+ 	
+ 	document.getElementById("Example").innerHTML="<HR>"
+ 	+ 	"<b>Наименование закупки: </b>"+document.sell.a.value
+ 	+" <br/><b> Цена контракта:</b>"+document.sell.b.value
+ 	+" <br/><b>Площадка проведения закупки: </b>"+document.sell.c.value
+ 	+" <br/><b> Тип закупки :</b> "+document.sell.d.value
+ 	+" <br/><b> Сумма обеспечения заявки:  </b>"+document.sell.e.value
+ 	+" <br/> <b>Дата завершения подачи разъяснений: </b> "+document.sell.f.value
+ 	+" <br/> <b>Дата окончания подачи заявок:  </b>"+document.sell.g.value
+ 	+" <br/> <b>Дата аукциона/подачи окончательных предложений: </b> "+document.sell.h.value
+ 	+" <br/> <b>Дата подведения итогов:  </b>"+document.sell.i.value
+ 	+" <br/> <b>Срок оказания услуги:  </b>"+document.sell.j.value
+ 	+" <br/> <b>Место оказания услуги:  </b>"+document.sell.k.value
+ 	+" <br/> <b>Возможность удаленного выполнения работ:  </b>"+document.sell.l.value
+ 	+" <br/> <b>Периодическая ли закупка? (была ранее аналогичная или нет): </b> "+document.sell.m.value
+ 	+" <br/><b> Есть ли возможность использования субподрядчиков: </b> "+document.sell.n.value
+ 	+" <br/> <b>Описание предмета закупки:  </b>"+document.sell.o.value
+ 	+" <br/> <b>Предмет закупки : </b> "+document.sell.p.value
+ 	+" <br/> <b>Критерии отбора победителя:  </b>"+document.sell.q.value
+   +" <br/><b> Стек технологий разработки: </b> "+document.sell.r.value
+
+ 	+"</HR>";
+ }
+        
+        
+    </script>
+</head>
+<body>
+<div id="Example"></div>
+
+ <form name="sell">
+    
+  <input TYPE="button" VALUE="Готово" onClick="Complete();"><br/> 
+    <input TYPE="reset" VALUE="Сброс"onClick="Reset()"><br/>    
+   
+
+    <!-- Анкета -->
+    <table>
+        <tr><td><b>Наименование закупки:</b></td>
+            <td><textarea name="a"  ></textarea></td></tr>
+        <tr><td><b>Цена контракта:<b></td>
+            <td><textarea name="b" 
+                  ></textarea></td></tr>
+      <tr><td><b>Площадка проведения закупки (URL):<b></td>
+            <td><textarea name="c" 
+                  ></textarea></td></tr>
+       <tr><td><b>Тип закупки:<b></td>
+            <td><textarea name="d" 
+                  ></textarea></td></tr>
+       <tr><td><b>Сумма обеспечения заявки:<b></td>
+            <td><textarea name="e" 
+                  ></textarea></td></tr>
+       <tr><td><b>Дата завершения подачи разъяснений:<b></td>
+            <td><textarea name="f" 
+                  ></textarea></td></tr>
+       <tr><td><b>Дата окончания подачи заявок:<b></td>
+            <td><textarea name="g" 
+                 ></textarea></td></tr>
+       <tr><td><b>Дата аукциона/подачи окончательных предложений
+:<b></td>
+            <td><textarea name="h" 
+                 ></textarea></td></tr>
+       <tr><td><b>Дата подведения итогов:<b></td>
+            <td><textarea name="i" 
+                  ></textarea></td></tr>
+     <tr><td><b>Срок оказания услуги:<b></td>
+            <td><textarea  name="j" 
+                  ></textarea></td></tr>
+                  <tr><td><b>Место оказания услуги:<b></td>
+            <td><textarea  name="k" 
+                  ></textarea></td></tr>
+                  <tr><td><b>Возможность удаленного выполнения работ
+:<b></td>
+            <td><textarea  name="l" 
+                  ></textarea></td></tr>
+                  <tr><td><b>Периодическая ли закупка? (была ранее аналогичная или нет)
+:<b></td>
+            <td><textarea name="m" 
+                  ></textarea></td></tr>
+                  <tr><td><b>Есть ли возможность использования субподрядчиков:<b></td>
+            <td><textarea name="n" 
+                  ></textarea></td></tr>
+                  <tr><td><b>Описание предмета закупки (своими словами):<b></td>
+            <td><textarea name="o" 
+                  ></textarea></td></tr>
+                  <tr><td><b>Предмет закупки (выдержки задания)
+:<b></td>
+            <td><textarea name="p" 
+                  ></textarea></td></tr>
+                  <tr><td><b>Критерии отбора победителя
+:<b></td>
+            <td><textarea name="q" 
+                  ></textarea></td></tr>
+                  <tr><td><b>Стек технологий разработки:<b></td>
+            <td><textarea name="r" 
+                  ></textarea></td></tr>
+    </table>
+    <!-- Кнопки готовности и сброса -->
+      
+ </form>   
+
+</body>
+</html>
